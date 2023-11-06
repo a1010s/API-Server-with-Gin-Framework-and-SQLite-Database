@@ -23,7 +23,6 @@ Git
 * Clone the Repository:
 
 ```bash
-Copy code
 git clone https://github.com/a1010s/API-Server-with-Gin-Framework-and-SQLite-Database
 cd apiserver
 ```
@@ -31,7 +30,6 @@ cd apiserver
 * Install Dependencies:
 
 ```bash
-Copy code
 go mod download
 ```
 * Run the Application:
