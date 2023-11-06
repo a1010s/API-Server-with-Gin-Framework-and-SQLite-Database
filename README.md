@@ -41,10 +41,11 @@ The server will start running on http://localhost:8088.
 
 ## API Endpoints
 
-GET /links/:id: Retrieve a specific resource by ID.
-POST /links/resource: Create a new resource.
-PUT /links/resource/:id: Update an existing resource by ID.
-DELETE /links/resource/:id: Delete a resource by ID.
+- GET /links/id Retrieve a specific resource by ID.
+- POST /links/resource Create a new resource.
+- PUT /links/resource/id Update an existing resource by ID.
+- DELETE /links/resource/id Delete a resource by ID.
+
 _NOTE: Not all the API Endpoints are yet implemented_
 
 ## Usage
