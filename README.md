@@ -16,6 +16,7 @@ Usage of the script:
 Before you begin, ensure you have the following installed on your system:
 
 Go (version >= 1.16)
+
 Git
 
 ## Getting Started
