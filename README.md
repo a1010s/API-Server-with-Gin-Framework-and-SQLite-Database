@@ -23,7 +23,7 @@ Git
 
 ```bash
 Copy code
-git clone https://github.com/a1010s/apiserver.git
+git clone https://github.com/a1010s/API-Server-with-Gin-Framework-and-SQLite-Database
 cd apiserver
 ```
 
