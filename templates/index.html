@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useful Links</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #555;
+        }
+
+        tr:nth-child(even) {
+            background-color: #444;
+        }
+
+        a {
+            color: #7ca4d7; /* White color for links */
+            text-decoration: none; /* Remove underline from links if desired */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Useful Links</h1>
+        <table>
+            <tr>
+                <th>Link Description</th>
+                <th>URL</th>
+            </tr>
+            {{range .Links}}
+            <tr>
+                <td>{{.Description}}</td>
+                <td><a href="{{.Address.URL}}" target="_blank">{{.Address.URL}}</a></td>
+            </tr>
+            {{end}}
+        </table>
+    </div>
+</body>
+
+</html>
