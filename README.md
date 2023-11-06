@@ -9,6 +9,9 @@ Usage of the script:
 /sh/add_links.sh "Link Description" "https://<link-name>.com"
 ```
 ## How does it look?
+
+- For the html webpage visit:
+http://localhost:8088/links/html
 ![go-apiserver](files/go-apiserver.png)
 
 
