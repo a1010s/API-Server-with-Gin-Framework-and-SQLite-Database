@@ -20,6 +20,6 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
-  - task: Go@0
-    inputs:
-      command: 'build'
+    - task: Go@0
+      inputs:
+        command: 'build'
